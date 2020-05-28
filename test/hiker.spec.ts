@@ -1,6 +1,6 @@
-import { Hiker } from "../src/hiker";
+import { Hiker } from '../src/hiker';
 
-describe("Hiker", () => {
+describe('Hiker', () => {
     let hiker: Hiker;
 
     beforeEach(() => {
