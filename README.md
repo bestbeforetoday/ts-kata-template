@@ -29,7 +29,8 @@ The unit tests can be run in "watch" mode, which will cause the tests to run eve
 npm test -- --watchAll
 ```
 
-
+Descriptions of the default matchers included with Jest to make assertions in your unit tests can be found at:
+- [https://jestjs.io/docs/en/expect](https://jestjs.io/docs/en/expect)
 
 ## Project structure
 
