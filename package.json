@@ -1,0 +1,29 @@
+{
+    "name": "@bestbeforetoday/ts-kata-template",
+    "version": "1.0.0",
+    "author": {
+        "name": "Mark S. Lewis",
+        "email": "Mark.S.Lewis@outlook.com"
+    },
+    "private": true,
+    "license": "Apache-2.0",
+    "description": "Skeleton TypeScript project as a starting point for a code kata",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "devDependencies": {
+        "@types/jest": "^25.2.3",
+        "@types/node": "^12.12.42",
+        "@typescript-eslint/eslint-plugin": "^3.0.2",
+        "@typescript-eslint/parser": "^3.0.2",
+        "eslint": "^7.1.0",
+        "jest": "^26.0.1",
+        "ts-jest": "^26.0.0",
+        "typescript": "^3.9.3"
+    },
+    "scripts": {
+        "build": "npm run clean && tsc && npm run lint",
+        "clean": "rm -rf dist",
+        "lint": "eslint . --ext .ts",
+        "test": "jest"
+    }
+}
