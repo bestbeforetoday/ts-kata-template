@@ -6,7 +6,7 @@ A skeleton TypeScript project designed as a starting point for a code kata. The 
 
 # Prerequisites
 
-Ensure that you have [Node.js](https://nodejs.org/) installed. Particularly if you may need to develop using multiple Node.js versions, I recommend using [Node Version Manager (NVM)](https://github.com/nvm-sh/nvm) to manage installation, update and switching between Node.js versions.
+Ensure that you have [Node.js](https://nodejs.org/) 14 or higher installed. Particularly if you may need to develop using multiple Node.js versions, I recommend using [Node Version Manager (NVM)](https://github.com/nvm-sh/nvm) to manage installation, update and switching between Node.js versions.
 
 # Getting started
 
