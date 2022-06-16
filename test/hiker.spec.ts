@@ -9,6 +9,6 @@ describe('Hiker', () => {
 
     it('gives the answer to the ultimate question', () => {
         const answer = hiker.getAnswer();
-        expect(answer).toEqual(42);
+        expect(answer).toBe(42);
     });
 });

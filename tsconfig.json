@@ -1,12 +1,18 @@
 {
-    "extends": "@tsconfig/node14/tsconfig.json",
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "extends": "@tsconfig/node16/tsconfig.json",
     "compilerOptions": {
-        "outDir": "dist/",
-        "rootDir": "src/",
-
-        "baseUrl": ".",
+        "declaration": true,
+        "declarationMap": true,
+        "sourceMap": true,
+        "outDir": "dist",
+        "strict": true,
+        "noUnusedLocals": true,
+        "noImplicitReturns": true,
+        "forceConsistentCasingInFileNames": true
     },
     "include": [
-        "src/"
+        "src/",
+        "test/"
     ]
 }
